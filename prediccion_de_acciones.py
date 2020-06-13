@@ -66,11 +66,3 @@ prediccion = modelo.predict(X_test)
 prediccion = sc.inverse_transform(prediccion)
 
 graficar_predicciones(set_validacion.values,prediccion)
-
-
-
-
-
-
-
-
